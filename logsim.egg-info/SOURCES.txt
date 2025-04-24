@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+logsim/__init__.py
+logsim/logger.py
+logsim.egg-info/PKG-INFO
+logsim.egg-info/SOURCES.txt
+logsim.egg-info/dependency_links.txt
+logsim.egg-info/top_level.txt

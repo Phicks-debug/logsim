@@ -1,0 +1,67 @@
+Metadata-Version: 2.4
+Name: logsim
+Version: 0.1.0
+Summary: A simple colored logger for Python
+Home-page: https://github.com/Phicks-debug/logsim
+Author: Phicks
+Author-email: an.tq@techxcorp.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: 3.14
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Logging
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-python
+Dynamic: summary
+
+# logsim
+
+A simple colored logger for Python with customized formatting.
+
+## Installation
+
+```bash
+pip install logsim
+```
+
+## Features
+
+- Colored log outputs in terminal
+- Automatic formatting with time and log level
+- Easy to use with a familiar logging API
+- Consistent visual alignment for better readability
+
+**Note:** Logsim are built upon python logging module, so it's compatible with any logging configuration.
+
+## Usage
+
+```python
+from logsim import CustomLogger
+
+# Create a logger
+logger = CustomLogger()
+
+# Use the logger
+logger.info("Hello from my custom logger!")
+```
+
+## License
+
+MIT
