@@ -68,7 +68,15 @@ class CustomLogger(Logger):
             ch = logging.StreamHandler()
             ch.setLevel(log_level)  # Set the minimum log level
             if use_json:
-                formatter = JsonFormatter()
+                formatter = JsonFormatter(
+                    "%(asctime)s %(levelname)s %(name)s %(message)s %(exc_info)s",  # noqa: E501
+                    json_indent=None,
+                    rename_fields={
+                        "asctime": "timestamp",
+                        "levelname": "level",
+                        "message": "msg",
+                    },
+                )
             else:
                 formatter = CustomFormatter()
             ch.setFormatter(formatter)
