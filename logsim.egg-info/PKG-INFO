@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: logsim
-Version: 0.2.1
+Version: 0.2.2
 Summary: A simple colored logger for Python
 Home-page: https://github.com/Phicks-debug/logsim
 Author: Phicks
@@ -21,6 +21,7 @@ Classifier: Topic :: System :: Logging
 Requires-Python: >=3.7
 Description-Content-Type: text/markdown
 License-File: LICENSE
+Requires-Dist: python-json-logger>=3.3.0
 Dynamic: author
 Dynamic: author-email
 Dynamic: classifier
@@ -28,6 +29,7 @@ Dynamic: description
 Dynamic: description-content-type
 Dynamic: home-page
 Dynamic: license-file
+Dynamic: requires-dist
 Dynamic: requires-python
 Dynamic: summary
 

@@ -3,12 +3,16 @@ from setuptools import setup, find_packages
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
+with open("requirements.txt", "r", encoding="utf-8") as fh:
+    requirements = fh.read().splitlines()
+
 setup(
     name="logsim",
-    version="0.2.1",
+    version="0.2.2",
     author="Phicks",
     author_email="an.tq@techxcorp.com",
     description="A simple colored logger for Python",
+    install_requires=requirements,
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/Phicks-debug/logsim",
