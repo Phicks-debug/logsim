@@ -25,8 +25,7 @@ class CustomFormatter(logging.Formatter):
     log_format = (
         f"{cyan}%(asctime)s{reset}    "
         f"%(log_color)s%(levelname)-8s{reset}"  # Padded levelname
-        f"%(message)s{reset}: "
-        f"{pink}%(exc_info)s"
+        f"%(message)s{reset}"
     )
 
     LOG_LEVEL_COLORS = {
