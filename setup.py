@@ -8,7 +8,7 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
 
 setup(
     name="logsim",
-    version="0.2.3",
+    version="0.2.31",
     author="Phicks",
     author_email="an.tq@techxcorp.com",
     description="A simple colored logger for Python",
