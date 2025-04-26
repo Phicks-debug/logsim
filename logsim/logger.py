@@ -73,4 +73,3 @@ class CustomLogger(Logger):
                 formatter = CustomFormatter()
             ch.setFormatter(formatter)
             self.addHandler(ch)
-            self.addFilter()

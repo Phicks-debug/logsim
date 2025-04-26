@@ -1,3 +1,7 @@
 [build-system]
 requires = ["setuptools>=42", "wheel"]
 build-backend = "setuptools.build_meta"
+
+dependencies = [
+    "python-json-logger>=3.3.0"
+]
